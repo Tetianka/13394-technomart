@@ -4,7 +4,7 @@ body{
     color: #000000;
     font-weight: normal;
     font-family: "PT Sans", "Arial";
-    
+    margin: 0;
 }
 h1{
     font-size: 30px;
@@ -20,4 +20,164 @@ h2{
     font-family: "Cuprum", "PT Sans", "Arial";
     text-transform: uppercase
 }
+nav, ul, li, a, p {
+    margin: 0;
+    padding: 0;
+}
 
+header{
+    background-color: #293349;
+    margin: 0;
+}
+
+.container{
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header-content{
+    background-color: #f2f6f8;
+    margin: 0;
+    padding-bottom: 60px
+}
+.top-menu-logo{
+    display:inline-block;
+    float: left;
+    margin-right: 20px;
+    width: 116px;
+    background-color: #ee3643; 
+    padding-top: 13px;
+    padding-left: 52px;
+    padding-right: 52px;
+    padding-bottom: 16px;
+}
+.search{
+    display: inline-block;
+    float: left;
+    margin-right: 20px;
+    width: 180px;
+    height: 18px;
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.top-menu-bookmark{
+    display: inline-block;
+    float: left;
+    width: 106px;
+    height: 18px;
+    margin-right: 20px;
+    padding-left: 28px;
+    padding-right: 6px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.top-menu-cart{
+    display: inline-block;
+    float: left;
+    background-color:#ee3643; 
+    width: 106px;
+    height: 18px;
+    margin-right: 0;
+    padding-left: 16px;
+    padding-right: 28px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.top-menu-order{
+    display: inline-block;
+    float: right;
+    background-color: #63a63e;
+    width: 108px;
+    height: 18px;
+    padding-left: 20px;
+    padding-right: 22px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.header-about{
+    float: left;
+    width: 196px;
+     width: 300px;
+    margin-right: 20px
+}
+
+.header-address{
+    float: left;
+    width: 300px;
+    margin-right: 20px
+}
+
+.auth-user-block{
+    float: left;
+    width: 300px;
+}
+
+nav a{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+nav li{
+    margin: 0;
+    padding: 0;
+    background-color: red;
+}
+.main-navigation {
+    background-color: #32425c;
+    padding-left: 52px;
+    padding-right: 52px;
+    padding-top: 17px;
+    padding-bottom: 22px;
+}
+
+nav ul li{
+    float: left;
+    list-style: none;
+    margin-right: 60px;  
+}
+
+.catalog-breadcrumbs li{
+    float: left;
+    list-style: none;
+    padding-left: 20px;
+}
+div.catalog-title .container{
+    background-color: #f2f6f8;
+}
+
+div.catalog-filter{
+    float: left;
+    width: 220px;
+    margin-right: 20px;
+}
+div.catalog-items{
+    float: left;
+    width: 700px;
+}
+
+.item-block{
+    float: left;
+    width: 220px;
+    margin-right: 20px;
+}
+.notes{
+    background-color: #f2f6f8;
+}
+
+footer{
+    background-color: #32425c;
+}
+
+.sub-footer{
+    background-color: #293349;
+}
