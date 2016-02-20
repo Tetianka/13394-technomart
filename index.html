@@ -3,34 +3,35 @@
   <head>
     <meta charset="utf-8">
     <title>Техномарт - строительные материалы и инструменты для ремонта</title>
+      <link href="css/normalize.css" rel="stylesheet">
       <link href="css/style.css" rel="stylesheet">
+      <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700"> 
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Cuprum:400,400italic,700&amp;subset=cyrillic,latin" rel="stylesheet" type="text/css">
   </head>
   <body>
       <header class="main-header">
-          <div class="top-menu">
-              <div class="container">
+              <div class="container clearfix">
                   <div class="top-menu-logo">
                       <a href="/index.html">Техномарт</a>
                   </div>
-                  <form>
-                      <label>
-                          Поиск: <input type="search">
-                      </label>
+                  <form class="search-form">
+                      <input type="search" class="search-field" id="search-field" name="search" placeholder="Поиск:">
+                      <label></label>
                   </form>
-                  <div class="top-menu-bookmark">
-                      <span>Закладки: 0</span>
+                  <div class="top-menu-order">
+                      <a href="#">Оформить заказ</a>
+
                   </div>
                   <div class="top-menu-cart">
                       <span>Корзина: 0</span>
                   </div>
-                  <div class="top-menu-order">
-                      <a href="#">Оформить заказ</a>
+                  <div class="top-menu-bookmark">
+                      <span>Закладки: 0</span>                   
                   </div>
               </div>
-          </div>
           <div class="header-content">
-              <div class="container">
-                  <section class="content-feature">
+              <div class="container clearfix">
+                  <section class="header-info-panel  clearfix">
                       <div class="header-about">
                           <p>Интернет-магазин строительных материалов и инструментов для ремонта</p>
                       </div>
@@ -48,7 +49,7 @@
                       </div>
                   </section>
                   <nav class="main-navigation">
-                      <ul>
+                      <ul class="main-navigation-list no-list">
                           <li>
                               <a href="#">Главная</a>
                           </li>
@@ -285,11 +286,13 @@
       </main>
       <footer>
           <div class="main-footer">
-              <div class="container">
+              <div class="container clearfix">
                   <div class="main-footer-left">
-                      <a href="/index.html">Техномарт</a>
-                      <address>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
-                          +7 (812) 555-05-55</address>
+                      <div class="footer-logo">
+                          <a href="/index.html">Техномарт</a>
+                      </div>
+                      <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
+                          +7 (812) 555-05-55</p>
                   </div>
                   <div class="main-footer-right">
                       <nav class="footer-navigation">
